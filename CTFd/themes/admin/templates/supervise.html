@@ -1,0 +1,25 @@
+{% extends "admin/base.html" %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block content %}
+
+<div class="jumbotron">
+	<div class="container">
+		<h1>Supervise</h1>
+	</div>
+</div>
+
+<p style="text-align:center;font-size:150%"><b>url:</b>http://47.94.163.160:8080/log.txt</p>
+
+<div style="margin: 0px auto;height:600;width:60%;"> 
+<iframe src="http://47.94.163.160:8080/log.txt" height="600" width="100%"></iframe>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+</script>
+{% endblock %}
